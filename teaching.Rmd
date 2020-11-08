@@ -1,0 +1,20 @@
+---
+title: "My Teaching"
+description: |
+  Some details on my teaching experience.
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Teaching Assistant
+1. STATS 7: Basic Statistics (Fall 2019, Fall 2020)
+1. STATS 67: Introduction to Probability and Statistics for Computer Science (Winter 2020)
+1. STATS 8: Introduction to Biological Statistics (Spring 2020)
+1. STATS 120A: Introduction to Probability and Statistics I (Summer Session I 2020)
+
+
+# Reader
+1. STATS 120B: Introduction to Probability and Statistics II (Summer Session II 2020)

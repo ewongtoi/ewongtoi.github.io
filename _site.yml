@@ -1,4 +1,4 @@
-name: "personal-website2"
+name: "personal-website"
 title: "My Website"
 description: |
   My Website
@@ -9,4 +9,8 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
+    - text: "Teaching"
+      href: teaching.html
+    - text: "Research"
+      href: research.html
 output: distill::distill_article

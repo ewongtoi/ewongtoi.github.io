@@ -1,0 +1,13 @@
+---
+title: "Research"
+description: |
+  Some additional details about my research experience.
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# UC Irvine
+
+# UC San Diego

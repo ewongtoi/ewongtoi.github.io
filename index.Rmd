@@ -1,5 +1,5 @@
 ---
-title: "My Website"
+title: "Eliot Wong-Toi's Website"
 description: |
   Welcome to the website. I hope you enjoy it!
 site: distill::distill_website
@@ -16,3 +16,4 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
+Hi my name is Eliot.
