@@ -7,7 +7,7 @@ site: distill::distill_website
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
-
+library(here)
 # Learn more about creating websites with Distill at:
 # https://rstudio.github.io/distill/website.html
 
@@ -20,3 +20,10 @@ I am a second-year PhD student in statistics at UC Irvine.
 I previously received a B.S. in Mathematics-Computer Science at UC San Diego in 2019. 
 
 I can be reached at ewongtoi[at]uci[dot]edu.
+
+
+[![](`r here::here("/Octocat/Octocat.png")`) ](https://github.com/ewongtoi)
+[![](`r here::here("/LinkedIn-Logos/LI-In-Bug.png")`)](https://www.linkedin.com/in/eliot-wong-toi/)
+
+
+
