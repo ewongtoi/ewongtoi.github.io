@@ -20,16 +20,16 @@ library(here)
 ```
 
 I am a second-year PhD student in statistics at UC Irvine. 
-I previously received a B.S. in Mathematics-Computer Science at UC San Diego in 2019. In my spare time I love watching, playing, and reading about sports.
+I previously received a B.S. in Mathematics-Computer Science at UC San Diego in
+2019. In my spare time I love watching, playing, and reading about sports.
 
-I can be reached at ewongtoi[at]uci[dot]edu.
 
-```{r, out.width="5%", out.height="5%", fig.link="https://github.com/ewongtoi"}
-knitr::include_graphics(here::here("/Octocat/Octocat.png"))
+```{r, out.width="5%", out.height="5%", fig.link=c("mailto:ewongtoi@uci.edu", "https://github.com/ewongtoi", "https://www.linkedin.com/in/eliot-wong-toi/")}
+knitr::include_graphics(here::here("/contact-icons/black_email_icon.png"))
+knitr::include_graphics(here::here("/contact-icons/Octocat.png"))
+knitr::include_graphics(here::here("/contact-icons/LI-In-Bug.png"))
+
 ```
 
-```{r, out.width="5%", out.height="5%", fig.link="https://www.linkedin.com/in/eliot-wong-toi/"}
-knitr::include_graphics(here::here("/LinkedIn-Logos/LI-In-Bug.png"))
-```
 
 
