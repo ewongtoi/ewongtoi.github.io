@@ -14,16 +14,22 @@ library(here)
 # Learn more about publishing to GitHub Pages at:
 # https://rstudio.github.io/distill/publish_website.html#github-pages
 
+# [![](`r here::here("/Octocat/Octocat.png")`) ](https://github.com/ewongtoi)
+# [![](`r here::here("/LinkedIn-Logos/LI-In-Bug.png")`)](https://www.linkedin.com/in/eliot-wong-toi/)
+
 ```
 
 I am a second-year PhD student in statistics at UC Irvine. 
-I previously received a B.S. in Mathematics-Computer Science at UC San Diego in 2019. 
+I previously received a B.S. in Mathematics-Computer Science at UC San Diego in 2019. In my spare time I love watching, playing, and reading about sports.
 
 I can be reached at ewongtoi[at]uci[dot]edu.
 
+```{r, out.width="5%", out.height="5%", fig.link="https://github.com/ewongtoi"}
+knitr::include_graphics(here::here("/Octocat/Octocat.png"))
+```
 
-[![](`r here::here("/Octocat/Octocat.png")`) ](https://github.com/ewongtoi)
-[![](`r here::here("/LinkedIn-Logos/LI-In-Bug.png")`)](https://www.linkedin.com/in/eliot-wong-toi/)
-
+```{r, out.width="5%", out.height="5%", fig.link="https://www.linkedin.com/in/eliot-wong-toi/"}
+knitr::include_graphics(here::here("/LinkedIn-Logos/LI-In-Bug.png"))
+```
 
 
