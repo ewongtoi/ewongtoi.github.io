@@ -10,13 +10,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Projects
 1. [Fuel Efficiency](https://github.com/stats295r-fa20/hw1-ewongtoi)
-+
-  Analysis on a small data set comparing the fuel efficiency of SP98 and E10
-fuel.
+    + Analysis on a small data set comparing the fuel efficiency of SP98 and
+    E10fuel.
 
 1. [Coronavirus Reproduction Number](https://drive.google.com/file/d/1O03W0aG2CuLJuj4XOGX90MJlvaU522Bz/view?usp=sharing)
-+
-  Class project with Isaac Goldstein estimating the reproduction number for
-coronavirus in Hubei province fit to data from early 2020. We applied the
-technique of linear noise approximation to data from early 2020 and fit a
-susceptible-infectious-recovered (SIR) model.
+    + Class project with Isaac Goldstein estimating the reproduction number for
+    coronavirus in Hubei province fit to data from early 2020. We applied the
+    technique of linear noise approximation to data from early 2020 and fit a
+    susceptible-infectious-recovered (SIR) model.
