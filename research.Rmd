@@ -1,7 +1,7 @@
 ---
 title: "Research"
 description: |
-  Some additional details about my research experience.
+  Some additional details about my research experience and interests.
 ---
 
 ```{r setup, include=FALSE}
@@ -10,13 +10,33 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 # UC Irvine
+1. Sports Analytics
+    +
+    Analyzing NBA shot chart data with Professor Weining Shen and Professor
+    Guangyu Hu to cluster players based on offensive contributions.
+
 1. Micro-Randomized Trials with Binary Outcomes
-    + Summary: Co-wrote `mrtbincalc` [package](https://github.com/stats295r-fa20/package-group9) (to be posted on CRAN) and [shiny app](https://github.com/stats295r-fa20/shiny-group5) for power and sample size calculations for micro-randomized trials with binary outcomes.
+    + 
+    Co-wrote `mrtbincalc`
+    [package](https://github.com/stats295r-fa20/package-group9) (to be posted on
+    CRAN) and [Shiny app](https://github.com/stats295r-fa20/shiny-group5) for
+    power and sample size calculations for micro-randomized trials with binary
+    outcomes. The formula that is implemented in this package and shiny app is
+    developed in ["Sample Size Considerations for Micro-Randomized Trials with
+    Binary Outcome"](https://sites.google.com/view/tianchen-qian/research) which
+    is currently a work in progress.
 
 
 1. Radiomics
-    + Summary: Collaborated with UC Davis scientists on analyzing radiomic data for predicting skin cancer.
+    +  
+    Worked with Professor Michele Guindani in collaboration with UC Davis
+    scientists on analyzing radiomic data for predicting skin cancer. Performed
+    variable selection and fit logistic regression models to provide
+    quantitative reasons for examining certain traits in imaging data.
 
 # UC San Diego
 1. Medical Imaging
-    + Summary: Implemented convolutional neural network for image segmentation on MRI's of lungs in the UCSD Pulmonary Imaging Lab under the direction fo Prof. Rui Carlos Pereira de Sa. 
+    +  
+    Implemented convolutional neural network for lung segmentation in MRI images
+    in the UCSD Pulmonary Imaging Lab under the direction fo Professor Rui
+    Carlos Pereira de Sa.
