@@ -1,7 +1,7 @@
 ---
-title: "Eliot Wong-Toi's Website"
+title: "Eliot Wong-Toi"
 description: |
-  Welcome to the website. I hope you enjoy it!
+  Welcome to my website. I hope you enjoy it!
 site: distill::distill_website
 ---
 
@@ -16,4 +16,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
-Hi my name is Eliot.
+I am a second-year PhD student in statistics at UC Irvine. 
+I previously received a B.S. in Mathematics-Computer Science at UC San Diego in 2019. 
+
+I can be reached at ewongtoi[at]uci[dot]edu.

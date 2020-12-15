@@ -8,6 +8,15 @@ description: |
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+
 # UC Irvine
+1. Micro-Randomized Trials with Binary Outcomes
+    + Summary: Co-wrote `mrtbincalc` [package](https://github.com/stats295r-fa20/package-group9) (to be posted on CRAN) and [shiny app](https://github.com/stats295r-fa20/shiny-group5) for power and sample size calculations for micro-randomized trials with binary outcomes.
+
+
+1. Radiomics
+    + Summary: Collaborated with UC Davis scientists on analyzing radiomic data for predicting skin cancer.
 
 # UC San Diego
+1. Medical Imaging
+    + Summary: Implemented convolutional neural network for image segmentation on MRI's of lungs in the UCSD Pulmonary Imaging Lab under the direction fo Prof. Rui Carlos Pereira de Sa. 

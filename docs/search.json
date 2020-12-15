@@ -1,0 +1,37 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this site",
+      "description": "Some additional details about me.",
+      "author": [],
+      "contents": "\r\nI am a second-year PhD student in statistics at UC Irvine. I previously received a B.S. in Mathematics-Computer Science at UC San Diego in 2019.\r\nI can be reached at ewongtoi[at]uci[dot]edu.\r\n\r\n\r\n\r\n",
+      "last_modified": "2020-12-14T22:35:29-08:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Eliot Wong-Toi",
+      "description": "Welcome to my website. I hope you enjoy it!\n",
+      "author": [],
+      "contents": "\r\nI am a second-year PhD student in statistics at UC Irvine. I previously received a B.S. in Mathematics-Computer Science at UC San Diego in 2019.\r\nI can be reached at ewongtoi[at]uci[dot]edu.\r\n\r\n\r\n\r\n",
+      "last_modified": "2020-12-14T22:35:29-08:00"
+    },
+    {
+      "path": "research.html",
+      "title": "Research",
+      "description": "Some additional details about my research experience.",
+      "author": [],
+      "contents": "\r\nUC Irvine\r\nMicro-Randomized Trials with Binary Outcomes\r\nSummary: Co-wrote mrtbincalc package (to be posted on CRAN) and shiny app for power and sample size calculations for micro-randomized trials with binary outcomes.\r\n\r\nRadiomics\r\nSummary: Collaborated with UC Davis scientists on analyzing radiomic data for predicting skin cancer.\r\n\r\nUC San Diego\r\nMedical Imaging\r\nSummary: Implemented convolutional neural network for image segmentation on MRI’s of lungs in the UCSD Pulmonary Imaging Lab under the direction fo Prof. Rui Carlos Pereira de Sa.\r\n\r\n",
+      "last_modified": "2020-12-14T22:35:30-08:00"
+    },
+    {
+      "path": "teaching.html",
+      "title": "Teaching",
+      "description": "Some details on my teaching experience.\n",
+      "author": [],
+      "contents": "\r\nUC Irvine\r\nTeaching Assistant\r\nSTATS 7: Basic Statistics (Fall 2019, Fall 2020)\r\nSTATS 67: Introduction to Probability and Statistics for Computer Science (Winter 2020)\r\nSTATS 8: Introduction to Biological Statistics (Spring 2020)\r\nSTATS 120A: Introduction to Probability and Statistics I (Summer Session I 2020)\r\nReader\r\nSTATS 120B: Introduction to Probability and Statistics II (Summer Session II 2020)\r\nUC San Diego\r\nSupplemental Instruction Leader\r\nMATH 3A Summer 2018\r\nMATH 11 Spring 2018\r\nMATH 18 Winter 2018; Fall,Summer Session I 2017\r\nMATH 20E Summer Session II 2017 1\r\n\r\n\r\n\r\n",
+      "last_modified": "2020-12-14T22:35:31-08:00"
+    }
+  ],
+  "collections": []
+}
