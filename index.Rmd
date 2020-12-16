@@ -1,7 +1,7 @@
 ---
 title: "Eliot Wong-Toi"
 description: |
-  Welcome to my website. I hope you enjoy it!
+
 site: distill::distill_website
 ---
 
@@ -15,6 +15,14 @@ library(here)
 # https://rstudio.github.io/distill/publish_website.html#github-pages
 
 ```
+
+```{r, out.width="25%", out.height="25%"}
+knitr::include_graphics(here::here("eliotwongtoi.jpg"))
+```
+
+
+
+Welcome to my website. I hope you enjoy it!
 
 I am a second-year PhD student in statistics at UC Irvine. 
 I previously received a B.S. in Mathematics-Computer Science at UC San Diego in
