@@ -8,15 +8,10 @@ site: distill::distill_website
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 library(here)
-# Learn more about creating websites with Distill at:
-# https://rstudio.github.io/distill/website.html
-
-# Learn more about publishing to GitHub Pages at:
-# https://rstudio.github.io/distill/publish_website.html#github-pages
 
 ```
 
-```{r, out.width="25%", out.height="25%"}
+```{r me, out.width="25%", out.height="25%"}
 knitr::include_graphics(here::here("eliotwongtoi.jpg"))
 ```
 
@@ -28,7 +23,8 @@ I am a second-year PhD student in statistics at UC Irvine.
 I previously received a B.S. in Mathematics-Computer Science at UC San Diego in
 2019.
 
-My statistical interests lie in computational problems and my personal interests lie in sports.
+My statistical interests lie in computational problems and my personal interests
+lie in sports; sometimes these two areas overlap.
 
 [<i class="fas fa-envelope-square"></i>](mailto:ewongtoi@uci.edu)
 [<i class="fab fa-github"></i></a>](https://github.com/ewongtoi)
