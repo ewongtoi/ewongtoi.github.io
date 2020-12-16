@@ -5,4 +5,13 @@
 .distill-site-nav a:hover {
   color: GhostWhite;
   font-weight: bold;
+  font-variant: small-caps;
+}
+
+h1 {
+  color: black;
+  font-weight: lighter;
+  font-variant: small-caps;
+  margin-top: 1px;
+  margin-bottom: 5px;
 }

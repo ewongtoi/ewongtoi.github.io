@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
     Analyzing NBA shot chart data with Professor [Weining
     Shen](https://faculty.sites.uci.edu/weinings/edu/) and Professor [Guangyu
     Hu](https://sites.google.com/site/nealguanyu/) to cluster players based on
-    offensive contributions.
+    offensive contributions. This project is just starting.
 
 + Micro-Randomized Trials with Binary Outcomes
     + 
@@ -36,14 +36,16 @@ knitr::opts_chunk$set(echo = TRUE)
 + Radiomics
     +  
     Worked with Professor [Michele Guindani](http://www.micheleguindani.info/)
-    in collaboration with UC Davis scientists on analyzing radiomic data for
-    predicting skin cancer. Performed variable selection and fit logistic
-    regression models to provide quantitative evidence for examining certain
-    traits in imaging data.
+    in collaboration with UC Davis scientists to analyze radiomic data for
+    predicting skin cancer. Used Bayesian methods to perform variable selection
+    and fit logistic regression models to provide quantitative evidence for
+    examining certain traits in imaging data.
 
 # UC San Diego
 + Medical Imaging
     +  
     Implemented convolutional neural network for lung segmentation in MRI images
     in the UCSD Pulmonary Imaging Lab under the supervision of Professor [Rui
-    Carlos Pereira de Sa](https://profiles.ucsd.edu/ruicarlos.pereiradesa).
+    Carlos Pereira de Sa](https://profiles.ucsd.edu/ruicarlos.pereiradesa). This 
+    tool was to be put in the post-processing pipeline and alleviate the burden
+    of hand-tagging thousands of MRI images per subject.
