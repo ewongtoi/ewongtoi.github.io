@@ -6,7 +6,7 @@
       "description": "Welcome to my website. I hope you enjoy it!\n",
       "author": [],
       "contents": "\r\nI am a second-year PhD student in statistics at UC Irvine. I previously received a B.S. in Mathematics-Computer Science at UC San Diego in 2019.\r\nMy statistical interests lie in computational problems and my personal interests lie in sports.\r\n  \r\n\r\n\r\n\r\n",
-      "last_modified": "2020-12-15T21:04:10-08:00"
+      "last_modified": "2020-12-15T21:26:41-08:00"
     },
     {
       "path": "misc_proj.html",
@@ -14,15 +14,15 @@
       "description": "Other projects I have worked on.",
       "author": [],
       "contents": "\r\nProjects\r\nFuel Efficiency\r\nAnalysis on a small data set comparing the fuel efficiency of SP98 and E10fuel.\r\n\r\nCoronavirus Reproduction Number\r\nClass project with Isaac Goldstein estimating the reproduction number for coronavirus in Hubei province fit to data from early 2020. We applied the technique of linear noise approximation to data from early 2020 and fit a susceptible-infectious-recovered (SIR) model.\r\n\r\n",
-      "last_modified": "2020-12-15T20:53:59-08:00"
+      "last_modified": "2020-12-15T21:26:42-08:00"
     },
     {
       "path": "research.html",
       "title": "Research",
       "description": "Additional details about my research experience and interests.",
       "author": [],
-      "contents": "\r\nUC Irvine\r\nSports Analytics\r\nAnalyzing NBA shot chart data with Professor Weining Shen and Professor Guangyu Hu to cluster players based on offensive contributions.\r\n\r\nMicro-Randomized Trials with Binary Outcomes\r\nCo-writing mrtbincalc package and Shiny app for power and sample size calculations in the context of micro-randomized trials with binary outcomes with Thabat Dahdoul under the direction of Professor Tianchen Qian. Both are currently under development. mrtbincalc will later be posted on CRAN and the Shiny app will be deployed soon as well. The formula that is implemented in this package and shiny app is developed in “Sample Size Considerations for Micro-Randomized Trials with Binary Outcome” which is currently a work in progress.\r\n\r\nRadiomics\r\nWorked with Professor Michele Guindani in collaboration with UC Davis scientists on analyzing radiomic data for predicting skin cancer. Performed variable selection and fit logistic regression models to provide quantitative reasons for examining certain traits in imaging data.\r\n\r\nUC San Diego\r\nMedical Imaging\r\nImplemented convolutional neural network for lung segmentation in MRI images in the UCSD Pulmonary Imaging Lab under the supervision of Professor Rui Carlos Pereira de Sa.\r\n\r\n",
-      "last_modified": "2020-12-15T21:02:09-08:00"
+      "contents": "\r\nUC Irvine\r\nSports Analytics\r\nAnalyzing NBA shot chart data with Professor Weining Shen and Professor Guangyu Hu to cluster players based on offensive contributions.\r\n\r\nMicro-Randomized Trials with Binary Outcomes\r\nCo-writing mrtbincalc package and Shiny app for power and sample size calculations in the context of micro-randomized trials with binary outcomes with Thabat Dahdoul under the direction of Professor Tianchen Qian. Both are currently under development. mrtbincalc will later be posted on CRAN and the Shiny app will be deployed soon as well. The formula that is implemented in this package and shiny app is developed in “Sample Size Considerations for Micro-Randomized Trials with Binary Outcome” which is currently a work in progress.\r\n\r\nRadiomics\r\nWorked with Professor Michele Guindani in collaboration with UC Davis scientists on analyzing radiomic data for predicting skin cancer. Performed variable selection and fit logistic regression models to provide quantitative evidence for examining certain traits in imaging data.\r\n\r\nUC San Diego\r\nMedical Imaging\r\nImplemented convolutional neural network for lung segmentation in MRI images in the UCSD Pulmonary Imaging Lab under the supervision of Professor Rui Carlos Pereira de Sa.\r\n\r\n",
+      "last_modified": "2020-12-15T21:26:43-08:00"
     },
     {
       "path": "teaching.html",
@@ -30,7 +30,7 @@
       "description": "Additional details on my teaching experience.\n",
       "author": [],
       "contents": "\r\nUC Irvine\r\nTeaching Assistant\r\nSTATS 7: Basic Statistics\r\nFall 2019, Fall 2020, Winter 2021\r\n\r\nSTATS 67: Introduction to Probability and Statistics for Computer Science\r\nWinter 2020\r\n\r\nSTATS 8: Introduction to Biological Statistics\r\nSpring 2020\r\n\r\nSTATS 120A: Introduction to Probability and Statistics I\r\nSummer Session I 2020\r\n\r\nReader\r\nSTATS 120B: Introduction to Probability and Statistics II\r\nSummer Session II 2020\r\n\r\nUC San Diego\r\nSupplemental Instruction Leader\r\nMATH 3A: Precalculus\r\nSummer 2018\r\n\r\nMATH 11: Calculus-Based Introductory Probability and Statistics\r\nSpring 2018\r\n\r\nMATH 18: Linear Algebra\r\nWinter 2018, Fall 2017, Summer Session I 2017\r\n\r\nMATH 20E: Vector Calculus\r\nSummer Session II 2017\r\n\r\n",
-      "last_modified": "2020-12-15T21:06:29-08:00"
+      "last_modified": "2020-12-15T21:26:44-08:00"
     }
   ],
   "collections": []
