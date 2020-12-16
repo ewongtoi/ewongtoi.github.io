@@ -1,7 +1,7 @@
 ---
 title: "Teaching"
 description: |
-  Some details on my teaching experience.
+  Additional details on my teaching experience.
 site: distill::distill_website
 ---
 
@@ -10,27 +10,27 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 # [UC Irvine](http://catalogue.uci.edu/allcourses/stats/) 
 ### Teaching Assistant
-1. STATS 7: Basic Statistics 
++ STATS 7: Basic Statistics 
    + Fall 2019, Fall 2020, Winter 2021
-1. STATS 67: Introduction to Probability and Statistics for Computer Science 
++ STATS 67: Introduction to Probability and Statistics for Computer Science 
    + Winter 2020
-1. STATS 8: Introduction to Biological Statistics 
++ STATS 8: Introduction to Biological Statistics 
    + Spring 2020
-1. STATS 120A: Introduction to Probability and Statistics I 
++ STATS 120A: Introduction to Probability and Statistics I 
    + Summer Session I 2020
 
 
 ### Reader
-1. STATS 120B: Introduction to Probability and Statistics II 
++ STATS 120B: Introduction to Probability and Statistics II 
    + Summer Session II 2020
 
 # [UC San Diego](https://ucsd.edu/catalog/courses/MATH.html)
 ### Supplemental Instruction Leader
-1. MATH 3A: Precalculus
++ MATH 3A: Precalculus
    + Summer 2018
-1. MATH 11: Calculus-Based Introductory Probability and Statistics 
++ MATH 11: Calculus-Based Introductory Probability and Statistics 
    + Spring 2018
-1. MATH 18: Linear Algebra
-   + Winter 2018; Fall, Summer Session I 2017 
-1. MATH 20E: Vector Calculus 
++ MATH 18: Linear Algebra
+   + Winter 2018, Fall 2017, Summer Session I 2017 
++ MATH 20E: Vector Calculus 
    + Summer Session II 2017
