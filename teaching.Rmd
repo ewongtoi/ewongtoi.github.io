@@ -1,7 +1,7 @@
 ---
 title: "Teaching"
 description: |
-  Additional details on my teaching experience.
+  Details on my teaching experience.
 site: distill::distill_website
 ---
 

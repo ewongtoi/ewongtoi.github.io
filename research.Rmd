@@ -1,7 +1,7 @@
 ---
 title: "Research"
 description: |
-  Additional details about my research experience and interests.
+  Some more about my research experience and interests.
 ---
 # UC Irvine
 + Sports Analytics
