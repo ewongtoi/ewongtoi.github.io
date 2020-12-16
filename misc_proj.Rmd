@@ -3,10 +3,6 @@ title: "Miscellaneous Projects"
 description: |
   Just for fun.
 ---
-  
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 # Projects
 + [Fuel Efficiency](https://github.com/stats295r-fa20/hw1-ewongtoi)

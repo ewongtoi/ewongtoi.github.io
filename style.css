@@ -1,13 +1,16 @@
+/* set background color for nav bar */
 .distill-site-nav{
   background-color:cornflowerblue;
 }
 
+/* set hover feature on nav bar */
 .distill-site-nav a:hover {
   color: GhostWhite;
   font-weight: bold;
   font-variant: small-caps;
 }
 
+/* style the headers */
 h1 {
   color: black;
   font-weight: lighter;
