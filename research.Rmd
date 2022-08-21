@@ -4,23 +4,26 @@ description: |
   Some more about my research experience and interests.
 ---
 # UC Irvine
++ Uncertainty Quantification
+    +
+    Developing techniques techniques for fitting Bayesian neural networks to 
+    heteroskedastic data with [Professor Stephan Mandt](http://www.stephanmandt.com/).
+    
 + Sports Analytics
     +
     Analyzing NBA shot chart data with Professor [Weining
     Shen](https://faculty.sites.uci.edu/weinings/edu/) and Professor [Guangyu
     Hu](https://sites.google.com/site/nealguanyu/) to cluster players based on
-    offensive contributions. This project is just starting.
+    offensive contributions.
 
 + Micro-Randomized Trials with Binary Outcomes
     + 
-    Co-writing `mrtbincalc`
-    [package](https://github.com/stats295r-fa20/package-group9) and [Shiny
-    app](https://github.com/stats295r-fa20/shiny-group5) for power and sample
+    Co-wrote `MRTSampleSizeBinary`
+    [package](https://cran.r-project.org/web/packages/MRTSampleSizeBinary/index.html) and [Shiny
+    app](https://tqian.shinyapps.io/mrt_ss_binary/) for power and sample
     size calculations in the context of micro-randomized trials with binary
     outcomes with Thabat Dahdoul under the direction of Professor [Tianchen
-    Qian](https://sites.google.com/view/tianchen-qian/). Both are currently
-    under development. `mrtbincalc` will later be posted on CRAN and the Shiny
-    app will be deployed soon as well. The formula that is implemented in this
+    Qian](https://sites.google.com/view/tianchen-qian/). The formula that is implemented in this
     package and shiny app is developed in ["Sample Size Considerations for
     Micro-Randomized Trials with Binary
     Outcome"](https://sites.google.com/view/tianchen-qian/research) which is
@@ -30,7 +33,7 @@ description: |
 + Radiomics
     +  
     Worked with Professor [Michele Guindani](http://www.micheleguindani.info/)
-    in collaboration with UC Davis scientists to analyze radiomic data for
+    in collaboration with UC Davis medical doctors to analyze radiomic data for
     predicting skin cancer. Used Bayesian methods to perform variable selection
     and fit logistic regression models to provide quantitative evidence for
     examining certain traits in imaging data.
@@ -41,5 +44,4 @@ description: |
     Implemented convolutional neural network for lung segmentation in MRI images
     in the UCSD Pulmonary Imaging Lab under the supervision of Professor [Rui
     Carlos Pereira de Sa](https://profiles.ucsd.edu/ruicarlos.pereiradesa). This 
-    tool was to be put in the post-processing pipeline and alleviate the burden
-    of hand-tagging thousands of MRI images per subject.
+    tool was to be put in the post-processing pipeline of MRI data.

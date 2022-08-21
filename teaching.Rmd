@@ -6,6 +6,11 @@ site: distill::distill_website
 ---
 
 # [UC Irvine](http://catalogue.uci.edu/allcourses/stats/) 
+
+### Instructor
++ STATS 7: Basic Statistics
+  + Summer Session II 2021
+
 ### Teaching Assistant
 + STATS 7: Basic Statistics 
    + Fall 2019, Fall 2020, Winter 2021

@@ -19,12 +19,12 @@ knitr::include_graphics(here::here("eliotwongtoi.jpg"))
 
 Welcome to my website. I hope you enjoy it!
 
-I am a second-year PhD student in statistics at UC Irvine. 
-I previously received a B.S. in Mathematics-Computer Science at UC San Diego in
+I am a fourth-year PhD student in statistics at [UC Irvine](https://www.stat.uci.edu/) 
+where I am advised by Professor [Stephan Mandt](http://www.stephanmandt.com/). I 
+previously received a B.S. in Mathematics-Computer Science from UC San Diego in 
 2019.
 
-My statistical interests lie in computational problems and my personal interests
-lie in sports; sometimes these two areas overlap.
+My research interests lie in Bayesian deep learning.
 
 [<i class="fas fa-envelope-square"></i>](mailto:ewongtoi@uci.edu)
 [<i class="fab fa-github"></i></a>](https://github.com/ewongtoi)
