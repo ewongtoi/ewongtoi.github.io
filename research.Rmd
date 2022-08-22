@@ -12,9 +12,10 @@ description: |
 + Sports Analytics
     +
     Analyzing NBA shot chart data with Professor [Weining
-    Shen](https://faculty.sites.uci.edu/weinings/edu/) and Professor [Guangyu
+    Shen](https://faculty.sites.uci.edu/weinings/edu/) and Professor [Guanyu
     Hu](https://sites.google.com/site/nealguanyu/) to cluster players based on
     offensive contributions.
+        + Wong-Toi, E., Yang, H.-C., Shen, W., and Hu, G. (2022) A Joint Analysis for Field Goal Attempts and Percentages of Professional Basketball Players: Bayesian Nonparametric Resource. Journal of Data Science [Link](https://jds-online.org/journal/JDS/article/1293/info)
 
 + Micro-Randomized Trials with Binary Outcomes
     + 
