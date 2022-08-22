@@ -5,7 +5,7 @@
       "title": "Eliot Wong-Toi",
       "author": [],
       "contents": "\n\n\n\nWelcome to my website. I hope you enjoy it!\nI am a fourth-year PhD student in statistics at UC Irvine where I am advised by\nProfessor Stephan Mandt. I\npreviously received a B.S. in Mathematics-Computer Science from UC San\nDiego in 2019.\nMy research interests lie in Bayesian deep learning.\n\n\n\n\n\n\n",
-      "last_modified": "2022-08-20T17:11:40-07:00"
+      "last_modified": "2022-08-22T11:29:54-07:00"
     },
     {
       "path": "misc_proj.html",
@@ -13,15 +13,15 @@
       "description": "Just for fun.",
       "author": [],
       "contents": "\nProjects\nFuel\nEfficiency\nUsed a linear model to analyze the fuel efficiency of SP98 and E10\nfuel. The data came from a single driver’s personal log of trips in a\nsingle vehicle over the course of a year.\n\nCoronavirus\nReproduction Number\nClass project with Isaac Goldstein estimating the reproduction\nnumber for coronavirus in Hubei province fit to data from early 2020. We\napplied the technique of linear noise approximation to data from early\n2020 and fit a susceptible-infectious-recovered (SIR) model.\n\n",
-      "last_modified": "2022-08-20T17:11:41-07:00"
+      "last_modified": "2022-08-22T11:29:55-07:00"
     },
     {
       "path": "research.html",
       "title": "Research",
       "description": "Some more about my research experience and interests.",
       "author": [],
-      "contents": "\nUC Irvine\nUncertainty Quantification\nDeveloping techniques techniques for fitting Bayesian neural\nnetworks to heteroskedastic data with Professor Stephan Mandt.\n\nSports Analytics\nAnalyzing NBA shot chart data with Professor Weining Shen and\nProfessor Guangyu\nHu to cluster players based on offensive contributions.\n\nMicro-Randomized Trials with Binary Outcomes\nCo-wrote MRTSampleSizeBinary package\nand Shiny app\nfor power and sample size calculations in the context of\nmicro-randomized trials with binary outcomes with Thabat Dahdoul under\nthe direction of Professor Tianchen Qian.\nThe formula that is implemented in this package and shiny app is\ndeveloped in “Sample Size\nConsiderations for Micro-Randomized Trials with Binary Outcome”\nwhich is currently a work in progress.\n\nRadiomics\nWorked with Professor Michele Guindani in\ncollaboration with UC Davis medical doctors to analyze radiomic data for\npredicting skin cancer. Used Bayesian methods to perform variable\nselection and fit logistic regression models to provide quantitative\nevidence for examining certain traits in imaging data.\n\nUC San Diego\nMedical Imaging\nImplemented convolutional neural network for lung segmentation in\nMRI images in the UCSD Pulmonary Imaging Lab under the supervision of\nProfessor Rui\nCarlos Pereira de Sa. This tool was to be put in the post-processing\npipeline of MRI data.\n\n",
-      "last_modified": "2022-08-20T17:11:41-07:00"
+      "contents": "\nUC Irvine\nUncertainty Quantification\nDeveloping techniques techniques for fitting Bayesian neural\nnetworks to heteroskedastic data with Professor Stephan Mandt.\n\nSports Analytics\nAnalyzing NBA shot chart data with Professor Weining Shen and\nProfessor Guanyu\nHu to cluster players based on offensive contributions.\nWong-Toi, E., Yang, H.-C., Shen, W., and Hu, G. (2022) A Joint\nAnalysis for Field Goal Attempts and Percentages of Professional\nBasketball Players: Bayesian Nonparametric Resource. Journal of Data\nScience Link\n\n\nMicro-Randomized Trials with Binary Outcomes\nCo-wrote MRTSampleSizeBinary package\nand Shiny app\nfor power and sample size calculations in the context of\nmicro-randomized trials with binary outcomes with Thabat Dahdoul under\nthe direction of Professor Tianchen Qian.\nThe formula that is implemented in this package and shiny app is\ndeveloped in “Sample Size\nConsiderations for Micro-Randomized Trials with Binary Outcome”\nwhich is currently a work in progress.\n\nRadiomics\nWorked with Professor Michele Guindani in\ncollaboration with UC Davis medical doctors to analyze radiomic data for\npredicting skin cancer. Used Bayesian methods to perform variable\nselection and fit logistic regression models to provide quantitative\nevidence for examining certain traits in imaging data.\n\nUC San Diego\nMedical Imaging\nImplemented convolutional neural network for lung segmentation in\nMRI images in the UCSD Pulmonary Imaging Lab under the supervision of\nProfessor Rui\nCarlos Pereira de Sa. This tool was to be put in the post-processing\npipeline of MRI data.\n\n",
+      "last_modified": "2022-08-22T11:29:55-07:00"
     },
     {
       "path": "teaching.html",
@@ -29,7 +29,7 @@
       "description": "Details on my teaching experience.\n",
       "author": [],
       "contents": "\nUC Irvine\nInstructor\nSTATS 7: Basic Statistics\nSummer Session II 2021\n\nTeaching Assistant\nSTATS 7: Basic Statistics\nFall 2019, Fall 2020, Winter 2021\n\nSTATS 67: Introduction to Probability and Statistics for Computer\nScience\nWinter 2020\n\nSTATS 8: Introduction to Biological Statistics\nSpring 2020\n\nSTATS 120A: Introduction to Probability and Statistics I\nSummer Session I 2020\n\nReader\nSTATS 120B: Introduction to Probability and Statistics II\nSummer Session II 2020\n\nUC San Diego\nSupplemental Instruction\nLeader\nMATH 3A: Precalculus\nSummer 2018\n\nMATH 11: Calculus-Based Introductory Probability and Statistics\nSpring 2018\n\nMATH 18: Linear Algebra\nWinter 2018, Fall 2017, Summer Session I 2017\n\nMATH 20E: Vector Calculus\nSummer Session II 2017\n\n",
-      "last_modified": "2022-08-20T17:11:41-07:00"
+      "last_modified": "2022-08-22T11:29:55-07:00"
     }
   ],
   "collections": []
