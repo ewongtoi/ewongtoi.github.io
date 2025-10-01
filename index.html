@@ -13,7 +13,7 @@
     color: #222e3a;
     margin: 0;
     word-wrap: break-word;
-    padding-top: 60px; /* space for fixed nav */
+    padding-top: 20px; /* space for fixed nav */
   }
   
   p { line-height: 1.55; }
@@ -155,26 +155,26 @@
   /* ---------- Mobile Styles ---------- */
   @media (max-width: 768px) {
     .nav-inner {
-      flex-direction: row;           /* keep name and hamburger in a row */
-      justify-content: space-between; /* name left, hamburger right */
+      flex-direction: row;              /* keep name + hamburger in a row */
+      justify-content: space-between;   /* name left, hamburger right */
       align-items: center;
     }
   
     .hamburger {
       display: block;
-      order: 2;                     /* ensures it's after the name */
+      cursor: pointer;
     }
   
     .nav-right {
-      display: none;                /* hide links initially */
-      flex-direction: column;       /* stack links vertically when open */
+      display: none;                     /* hidden by default */
+      flex-direction: column;            /* stack links vertically */
       width: 100%;
-      margin-top: 8px;              /* spacing under nav row */
+      margin-top: 8px;                   /* space below row */
       gap: 10px;
     }
   
     .nav-right.active {
-      display: flex;
+      display: flex;                     /* show links below name + hamburger row */
     }
   }
   
