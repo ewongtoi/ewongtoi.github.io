@@ -131,18 +131,17 @@
       font-size: .97em;
       padding: 10px 0;
     }
-    .edu-item {
+    .edu-entry {
       display: flex;
       justify-content: space-between;
-      margin-bottom: 0.8em;
-      flex-wrap: wrap; /* ensures it wraps nicely on small screens */
+      margin-bottom: 1em;
     }
     .edu-left {
-      max-width: 70%; /* adjust so text and dates don’t overlap */
+      flex: 1;
     }
     .edu-right {
       text-align: right;
-      min-width: 100px; /* optional, ensures spacing */
+      min-width: 140px; /* adjust to match your layout */
     }
     #education ul {
       list-style: none; /* remove default bullets */
@@ -228,34 +227,32 @@
 
   </section>
   <section id="education">
-    <h2>Education</h2>
-    <div class="edu-item">
-      <div class="edu-left">
-        <strong>University of California, Irvine</strong>, Irvine, CA<br>
-        PhD in Statistics, Advisor: Stephan Mandt
-      </div>
-      <div class="edu-right">
-        Dec 2025 (expected)
-      </div>
+  <h2>Education</h2>
+  
+  <div class="edu-entry">
+    <div class="edu-left">
+      <div><strong>University of California, Irvine</strong>, Irvine, CA</div>
+      <div>PhD in Statistics, Advisor: Stephan Mandt</div>
+      <div>MS in Statistics</div>
     </div>
-    <div class="edu-item">
-      <div class="edu-left">
-        MS in Statistics
-      </div>
-      <div class="edu-right">
-        Sep 2019 – Mar 2022
-      </div>
+    <div class="edu-right">
+      <div></div>
+      <div>Dec 2025 (expected)</div>
+      <div>Sep 2019 – Mar 2022</div>
     </div>
-    <div class="edu-item">
-      <div class="edu-left">
-        <strong>University of California, San Diego</strong>, La Jolla, CA<br>
-        BS in Mathematics–Computer Science (cum laude), Minor: Economics
-      </div>
-      <div class="edu-right">
-        Sep 2015 – Jun 2019
-      </div>
+  </div>
+
+  <div class="edu-entry">
+    <div class="edu-left">
+      <div><strong>University of California, San Diego</strong>, La Jolla, CA</div>
+      <div>BS in Mathematics–Computer Science (cum laude), Minor: Economics</div>
     </div>
-  </section>
+    <div class="edu-right">
+      <div></div>
+      <div>Sep 2015 – Jun 2019</div>
+    </div>
+  </div>
+</section>
   <section id="research">
   <h2>Research</h2>
 
