@@ -20,7 +20,7 @@
     
     /* unify link color and keep underlined */
     a {
-      color: #00769e; /* match paper links */
+      color: #00769e;
       text-decoration: underline;
     }
     
@@ -45,12 +45,11 @@
       }
     }
     
-    /* Header */
     header {
       display: flex;
-      flex-direction: column; /* stack elements vertically */
-      align-items: center;    /* center horizontally */
-      text-align: center;     /* center text */
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
       margin-bottom: 18px;
     }
     
@@ -64,7 +63,7 @@
     }
     
     .header-info {
-      margin-top: 16px; /* spacing between photo and info */
+      margin-top: 16px;
     }
     
     .header-info .name {
@@ -82,13 +81,12 @@
     }
     
     .header-info .contact a {
+      text-decoration: none;
+      color: #222e3a;
       margin: 0 6px;
       font-weight: 600;
-      text-decoration: underline;
-      color: #00769e;
     }
     
-    /* Navigation */
     nav {
       display: flex;
       flex-wrap: wrap;
@@ -110,7 +108,6 @@
       text-decoration: underline;
     }
     
-    /* Sections */
     section {
       margin-bottom: 2.2em;
     }
@@ -141,7 +138,6 @@
       text-decoration: underline;
     }
     
-    /* Footer */
     .footer {
       text-align: center;
       color: #aaa;
@@ -150,35 +146,10 @@
       padding: 10px 0;
     }
     
-    /* Education */
-    .edu-entry {
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: 1em;
-    }
-    
-    .edu-left {
-      flex: 1;
-    }
-    
-    .edu-right {
-      text-align: right;
-      min-width: 140px; /* adjust to match your layout */
-    }
-    
     #education {
       margin-bottom: 2em;
     }
     
-    @media (max-width: 600px) {
-      .edu-left, .edu-right {
-        flex: 1 1 100%;
-        text-align: left;
-        margin-bottom: 0.2em;
-      }
-    }
-    
-    /* Back to top button */
     #back-to-top {
       position: fixed;
       bottom: 24px;
@@ -198,7 +169,14 @@
     #back-to-top:hover {
       opacity: 1;
     }
+    
+    @media (max-width: 600px) {
+      nav {
+        justify-content: center;
+      }
+    }
 </style>
+
 
 </head>
 <body>
@@ -206,7 +184,6 @@
   <header>
     <img class="profile-img" src="eliotwongtoi.jpg" alt="Eliot Wong-Toi">
     <div class="header-info">
-      <div class="name">Eliot Wong-Toi</div>
       <div class="title">PhD Candidate in Statistics at University of California, Irvine</div>
       <div class="contact" style="margin-top: 8px; font-weight: 600;">
         <a href="mailto:ewongtoi@uci.edu" title="Email">Email</a> |
@@ -217,14 +194,23 @@
     </div>
   </header>
 
-    <nav>
+  <nav id="top-nav">
+    <div class="nav-left">
+      <span class="nav-name">Eliot Wong-Toi</span>
+    </div>
+    <div class="nav-right">
       <a href="#about">About</a>
-      <a href="#education">Education</a>
       <a href="#research">Research</a>
       <a href="#software">Software</a>
       <a href="#teaching">Teaching</a>
       <a href="#service">Service</a>
-    </nav>
+      <a href="#education">Education</a>
+    </div>
+    <div class="hamburger">&#9776;</div> <!-- hamburger icon -->
+  </nav>
+
+  <!-- Back to Top Button -->
+  <button id="back-to-top" title="Back to top">↑ Top</button>
 
   <section id="about">
     <h2>About</h2>
@@ -404,25 +390,29 @@
       &copy; 2025 Eliot Wong-Toi
     </div>
   </div>
-<button id="back-to-top" title="Back to top">↑ Top</button>
-  <script>
-    // Smooth scroll for nav links
-    document.addEventListener("DOMContentLoaded", function () {
-      document.querySelectorAll('nav a').forEach(function(link){
-        link.addEventListener('click', function(e){
-          e.preventDefault();
-          var target = document.querySelector(this.getAttribute('href'));
-          if(target) target.scrollIntoView({behavior:'smooth'});
-        });
-      });
-    });
-  </script>
-  <script>
-  const backToTopButton = document.getElementById('back-to-top');
 
-  backToTopButton.addEventListener('click', () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+<!-- JavaScript -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  // Hamburger toggle
+  const hamburger = document.querySelector(".hamburger");
+  const navRight = document.querySelector(".nav-right");
+  hamburger.addEventListener("click", () => { navRight.classList.toggle("active"); });
+
+  // Smooth scroll
+  document.querySelectorAll('nav a, .nav-right a').forEach(function(link){
+    link.addEventListener('click', function(e){
+      e.preventDefault();
+      const target = document.querySelector(this.getAttribute('href'));
+      if(target) target.scrollIntoView({behavior:'smooth'});
+      if(navRight.classList.contains('active')) navRight.classList.remove('active');
+    });
   });
+
+  // Back to top
+  const backToTopButton = document.getElementById('back-to-top');
+  backToTopButton.addEventListener('click', () => { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+});
 </script>
 
 </body>
