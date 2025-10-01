@@ -17,4 +17,4 @@ This is the source code for my academic personal website, hosted on [GitHub Page
 
 ## How to view
 
-Visit: [https://ewongtoi.github.io/ewongtoi.github.io/](https://ewongtoi.github.io/ewongtoi.github.io/)
+Visit: [https://ewongtoi.github.io/](https://ewongtoi.github.io/)
