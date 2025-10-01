@@ -147,6 +147,25 @@
       padding-bottom: 2px;
       margin-bottom: 0.7em;
     }
+    #back-to-top {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      padding: 10px 14px;
+      font-size: 16px;
+      background-color: #00769e;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      z-index: 1000;
+      opacity: 0.8;
+      transition: opacity 0.2s;
+    }
+    
+    #back-to-top:hover {
+      opacity: 1;
+    }
   </style>
 </head>
 <body>
@@ -353,7 +372,7 @@
       &copy; 2025 Eliot Wong-Toi
     </div>
   </div>
-
+<button id="back-to-top" title="Back to top">↑ Top</button>
   <script>
     // Smooth scroll for nav links
     document.addEventListener("DOMContentLoaded", function () {
@@ -366,5 +385,13 @@
       });
     });
   </script>
+  <script>
+  const backToTopButton = document.getElementById('back-to-top');
+
+  backToTopButton.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+</script>
+
 </body>
 </html>
