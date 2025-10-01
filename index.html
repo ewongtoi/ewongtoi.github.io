@@ -155,8 +155,9 @@
   /* ---------- Mobile Styles ---------- */
   @media (max-width: 768px) {
     .nav-inner {
-      flex-direction: column;
-      align-items: flex-start;
+      flex-direction: row; /* keep row */
+      justify-content: space-between; /* push name left, hamburger right */
+      align-items: center;
     }
   
     .nav-right {
@@ -169,8 +170,9 @@
   
     .nav-right.active { display: flex; }
   
-    .hamburger { display: block; }
+    .hamburger { display: block; order: 2; } /* ensure it’s after nav-name */
   }
+  
   
   /* ---------- Back to Top ---------- */
   #back-to-top {
@@ -196,6 +198,7 @@
 </style>
 </head>
 <body>
+
 <nav>
   <div class="nav-inner">
     <div class="nav-name">Eliot Wong-Toi</div>
