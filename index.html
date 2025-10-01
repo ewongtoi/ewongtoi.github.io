@@ -105,6 +105,11 @@
     margin: 0 6px;
     font-weight: 600;
   }
+
+  section {
+    margin-bottom: 2.2em;
+    scroll-margin-top: 52px; /* offset equal to navbar height */
+  }
   
   /* ---------- Navbar ---------- */
   nav {
@@ -129,6 +134,17 @@
   .nav-name { font-weight: 700; font-size: 1.1em; color: #22315a; }
   
   .nav-right { display: flex; gap: 16px; }
+  .nav-right a,
+  .nav-dropdown a {
+    text-decoration: none;  /* remove underline */
+    color: #00769e;         /* keep color */
+  }
+  
+  .nav-right a:hover,
+  .nav-dropdown a:hover {
+    text-decoration: none;  /* no underline on hover */
+    color: #22315a;         /* hover color */
+  }
   
   .hamburger {
     display: none;
