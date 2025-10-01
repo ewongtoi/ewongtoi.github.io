@@ -44,6 +44,7 @@
         margin: 12px auto;
       }
     }
+
     header {
       display: flex;
       align-items: center;
@@ -143,21 +144,35 @@
       text-align: right;
       min-width: 140px; /* adjust to match your layout */
     }
-    #education ul {
-      list-style: none; /* remove default bullets */
-      padding-left: 0;
+    #education {
+      margin-bottom: 2em;
     }
-    #education li {
-      margin-bottom: 1em;
-      line-height: 1.5em;
+    
+    .edu-entry {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-bottom: 1.2em;
     }
-    #education h2 {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 1.23em;
-      color: #274c7c;
-      border-bottom: 1px solid #eaeaea;
-      padding-bottom: 2px;
-      margin-bottom: 0.7em;
+    
+    .edu-left {
+      flex: 1 1 60%;
+      font-weight: 600;
+    }
+    
+    .edu-right {
+      flex: 0 0 auto;
+      text-align: right;
+      font-weight: 400;
+      min-width: 100px;
+    }
+    
+    @media (max-width: 600px) {
+      .edu-left, .edu-right {
+        flex: 1 1 100%;
+        text-align: left;
+        margin-bottom: 0.2em;
+      }
     }
     #back-to-top {
       position: fixed;
@@ -227,32 +242,30 @@
 
   </section>
   <section id="education">
-  <h2>Education</h2>
+    <h2>Education</h2>
   
-  <div class="edu-entry">
-    <div class="edu-left">
-      <div><strong>University of California, Irvine</strong>, Irvine, CA</div>
-      <div>PhD in Statistics, Advisor: Stephan Mandt</div>
-      <div>MS in Statistics</div>
+    <div class="edu-entry">
+      <div class="edu-left">
+        PhD in Statistics, Advisor: Stephan Mandt<br>
+        Dec 2025 (expected)<br>
+        MS in Statistics
+      </div>
+      <div class="edu-right">
+        Sep 2019 – Mar 2022
+      </div>
+      <div class="edu-left">University of California, Irvine, Irvine, CA</div>
     </div>
-    <div class="edu-right">
-      <div></div>
-      <div>Dec 2025 (expected)</div>
-      <div>Sep 2019 – Mar 2022</div>
+  
+    <div class="edu-entry">
+      <div class="edu-left">
+        BS in Mathematics–Computer Science (cum laude), Minor: Economics
+      </div>
+      <div class="edu-right">
+        Sep 2015 – Jun 2019
+      </div>
+      <div class="edu-left">University of California, San Diego, La Jolla, CA</div>
     </div>
-  </div>
-
-  <div class="edu-entry">
-    <div class="edu-left">
-      <div><strong>University of California, San Diego</strong>, La Jolla, CA</div>
-      <div>BS in Mathematics–Computer Science (cum laude), Minor: Economics</div>
-    </div>
-    <div class="edu-right">
-      <div></div>
-      <div>Sep 2015 – Jun 2019</div>
-    </div>
-  </div>
-</section>
+  </section>
   <section id="research">
   <h2>Research</h2>
 
