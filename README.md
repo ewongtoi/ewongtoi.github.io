@@ -5,16 +5,15 @@ This is the source code for my academic personal website, hosted on [GitHub Page
 ## Files
 
 - `index.html` — The main landing page.
-- `eliot.png` — My profile photo.
-- `resume.pdf` — My CV.
-- `favicon.ico` — (Optional) Site icon for browser tabs.
+- `eliotwongtoi.jpg` — My profile photo.
+- `eliot_wong-toi_resume_2025.pdf` — My CV.
 - `LICENSE` — (Optional) Usage and copyright.
 - `README.md` — This file.
 
 ## How to update
 
-- To update your photo, replace `eliot.png`.
-- To update your resume, replace `resume.pdf`.
+- To update my photo, replace `eliotwongtoi.jpg`.
+- To update my resume, replace `eliot_wong-toi_resume_2025.pdf`.
 - Edit `index.html` to update content or design.
 
 ## How to view
