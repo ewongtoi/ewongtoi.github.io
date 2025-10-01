@@ -13,7 +13,7 @@
     color: #222e3a;
     margin: 0;
     word-wrap: break-word;
-    padding-top: 48px; /* space for fixed nav (adjusted smaller) */
+    padding-top: 48px; /* space for fixed nav */
   }
   
   p { line-height: 1.55; }
@@ -117,7 +117,6 @@
     z-index: 1000;
   }
   
-  /* Top row: name + hamburger */
   .nav-inner {
     max-width: 900px;
     margin: 0 auto;
@@ -127,23 +126,21 @@
     padding: 12px 0;
   }
   
-  .nav-name {
-    font-weight: 700;
-    font-size: 1.1em;
-    color: #22315a;
-  }
+  .nav-name { font-weight: 700; font-size: 1.1em; color: #22315a; }
+  
+  .nav-right { display: flex; gap: 16px; }
   
   .hamburger {
-    display: none; /* shown only on mobile */
+    display: none;
     font-size: 24px;
     cursor: pointer;
+    margin-right: 5px; /* shift left slightly */
   }
   
-  /* Dropdown menu panel (mobile) */
   .nav-dropdown {
-    display: none; /* hidden by default */
+    display: none;
     flex-direction: column;
-    background-color: #f1f5f9; /* shaded panel */
+    background-color: #f1f5f9;
     max-width: 900px;
     margin: 0 auto;
     padding: 10px 0;
@@ -156,14 +153,12 @@
     font-weight: 600;
   }
   
-  .nav-dropdown a:hover {
-    background-color: #e0e7ef;
-  }
+  .nav-dropdown a:hover { background-color: #e0e7ef; }
   
   /* ---------- Mobile Styles ---------- */
   @media (max-width: 768px) {
-    .hamburger { display: block; }
-  
+    .nav-right { display: none; }      /* hide desktop links */
+    .hamburger { display: block; }     /* show hamburger */
     .nav-dropdown.active { display: flex; } /* show panel when toggled */
   }
   
@@ -173,7 +168,7 @@
     bottom: 24px;
     left: 50%;
     transform: translateX(-50%);
-    padding: 10px 14px;      /* small button */
+    padding: 10px 14px;
     font-size: 16px;
     background-color: #00769e;
     color: white;
@@ -185,9 +180,8 @@
     transition: opacity 0.2s;
   }
   
-  #back-to-top:hover {
-    opacity: 1;
-  }
+  #back-to-top:hover { opacity: 1; }
+
 
 </style>
 </head>
@@ -196,9 +190,22 @@
 <nav>
   <div class="nav-inner">
     <div class="nav-name">Eliot Wong-Toi</div>
+
+    <!-- Desktop nav links -->
+    <div class="nav-right">
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#software">Software</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#service">Service</a>
+      <a href="#education">Education</a>
+    </div>
+
+    <!-- Hamburger for mobile -->
     <div class="hamburger" aria-label="Toggle navigation">&#9776;</div>
   </div>
-  <!-- Dropdown menu panel -->
+
+  <!-- Mobile dropdown panel -->
   <div class="nav-dropdown">
     <a href="#about">About</a>
     <a href="#research">Research</a>
@@ -412,7 +419,7 @@
     const dropdown = document.querySelector(".nav-dropdown");
   
     hamburger.addEventListener("click", () => {
-      dropdown.classList.toggle("active"); // show/hide mobile menu
+      dropdown.classList.toggle("active");
     });
   
     // ---------- Smooth scroll ----------
@@ -436,6 +443,8 @@
     });
   });
   </script>
+
+
 
 </body>
 </html>
