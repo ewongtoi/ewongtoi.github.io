@@ -6,7 +6,7 @@ This is the source code for my academic personal website, hosted on [GitHub Page
 
 - `index.html` — The main landing page.
 - `eliotwongtoi.jpg` — My profile photo.
-- `eliot_wong-toi_resume_2025.pdf` — My CV.
+- `eliot_wong-toi_resume_2025.pdf` — My resume.
 - `README.md` — This file.
 
 ## How to update
